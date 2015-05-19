@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/sunshine_blue</item>
+        <item name="android:colorPrimaryDark">@color/sunshine_dark_blue</item>
+    </style>
+    <style name="MainTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionBarTabStyle">@style/MyTabStyle</item>
+    </style>
+    <style name="Act" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:displayOptions">useLogo</item>
+        <item name="android:background">@color/sunshine_dark_blue</item>
+    </style>
+    <style name="MyActionBarTabText">
+        <item name="android:textColor">@color/accent_material_dark</item>
+    </style>
+    <style name="MyTabStyle">
+        <item name="android:background">@color/accent_material_light</item>
+    </style>
+
+
+
+
+</resources>

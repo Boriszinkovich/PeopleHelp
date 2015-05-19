@@ -1,0 +1,120 @@
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:id="@+id/container_main"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.boris.androidproject.detail_activity.MapUserInformation">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/mapuserbigimage">
+        </ImageView>
+        <TextView android:id="@+id/myImageViewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="Hello"
+            android:layout_marginBottom="19dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textColor="#ffffffff" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:id="@+id/mapuser_isonline"
+        android:text="online"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:textSize="18sp"
+        android:textColor="#b5c6c6c6"
+        android:textStyle="italic"
+        android:paddingLeft="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/search_mapuser_text"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="#ff030303"
+        android:text="Борис ищет срочную помощь"
+        android:singleLine="false"
+        android:background="@drawable/mapuser_border"
+        android:lines="@integer/abc_config_activityDefaultDur"
+        android:paddingTop="40dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="50dp"
+        android:textStyle="normal" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mapuser_border"
+            android:id="@+id/happened_container"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/what_happened"
+                android:minHeight="20dp"
+                android:text="Что случилось"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/themFind"
+                android:minHeight="30dp"
+                android:text="Нужны друзья"
+                android:textSize="16sp"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/additional_info_container"
+            android:background="@drawable/mapuser_border"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:minHeight="20dp"
+                android:id="@+id/need_additional_inf"
+                android:text="Дополнительная информация"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/commentFind"
+                android:text="Нужны друзья"
+                android:minHeight="30dp"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/end_date_container"
+            android:background="@drawable/mapuser_border"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:minHeight="20dp"
+                android:id="@+id/see_date"
+                android:text="Конечная дата"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mapuser_data"
+                android:minHeight="30dp"
+                android:text="Нужны друзья"
+                android:textSize="16sp"/>
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

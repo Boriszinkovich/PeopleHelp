@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PeopleHelp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_section1">Мой профиль</string>
+    <string name="title_section2">Мои сообщения</string>
+    <string name="title_section3">Карта помощи</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_my_help_detail">MyHelpDetail</string>
+    <string name="title_activity_sos_detail">SosDetailActivity</string>
+    <string name="title_activity_detailactivity_layout">DetailactivityLayoutActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
